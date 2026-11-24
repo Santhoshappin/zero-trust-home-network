@@ -3,7 +3,8 @@
 **Your home is a public network.** This repo shows how I audited and segmented my own home network, so that a hacked TV, camera or robot vacuum can't reach the laptops I use for work. It uses only the ISP router I already had, with no new hardware.
 
 By **Santhosh Damodaran**, Integration Architect (Azure · AI agents · secure integration)
-[linkedin.com/in/santhoshdamodaran](https://www.linkedin.com/in/santhoshdamodaran)
+[linkedin.com/in/santhoshdamodaran](https://www.linkedin.com/in/santhoshdamodaran)  
+📣 Read the LinkedIn post: [Your home is a public network](https://lnkd.in/p/dE2ErKZY)
 
 ![Animated architecture: a hacked IoT device is blocked at the zone barrier while work traffic flows through the VPN tunnel](diagram/diagram.gif)
 
