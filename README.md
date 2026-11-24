@@ -33,6 +33,10 @@ Sources and details: [docs/research.md](docs/research.md)
 Principles: **network segmentation · least privilege · defense in depth · assume breach**.
 The goal: *if the home network is compromised, the work device shouldn't even be visible.*
 
+> **Honest limit:** segmentation limits the blast radius at home. It would not have stopped the Binance malware, which the engineer ran on their own device. Identity, endpoint security and least privilege protect the work itself. See [limits-and-faq.md](docs/limits-and-faq.md).
+
+**Want to do this at home?** Start with the [15-minute quick start](docs/quick-start.md).
+
 ## What I found and decided (the real part)
 
 The audit found more than a checklist would predict:
@@ -51,9 +55,12 @@ The audit found more than a checklist would predict:
 
 | File | What's in it |
 |---|---|
+| [docs/quick-start.md](docs/quick-start.md) | **Start here:** the 15-minute version (6 steps) |
+| [docs/router-guide.md](docs/router-guide.md) | Will this work on my router? A decision guide, fallbacks and where the settings live (TP-Link, ASUS, NETGEAR, FRITZ!Box, Eero, ISP routers) |
 | [docs/runbook.md](docs/runbook.md) | Step-by-step setup you can repeat for any house and any router |
 | [docs/security-checklist.md](docs/security-checklist.md) | Router + device hardening checklist (template) |
-| [docs/verification.md](docs/verification.md) | How to *prove* the segmentation works (PowerShell tests) |
+| [docs/verification.md](docs/verification.md) | How to *prove* the segmentation works (Windows, macOS and Linux tests) |
+| [docs/limits-and-faq.md](docs/limits-and-faq.md) | What segmentation does **not** protect against, plus common problems and fixes |
 | [docs/research.md](docs/research.md) | Breach case studies with sources |
 
 ## The diagram
