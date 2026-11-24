@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#16A34A"/>
+    </marker>
+    <marker id="arrg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748B"/>
+    </marker>
+  </defs>
+  <!--STYLE-->
+  <rect width="1080" height="1350" fill="#F7F9FC"/>
+
+  <g id="header">
+    <text x="540" y="68" text-anchor="middle" font-size="46" font-weight="800" fill="#0B2545">YOUR HOME IS A PUBLIC NETWORK</text>
+    <text x="540" y="106" text-anchor="middle" font-size="23" fill="#475569">Home network security for remote work · Zero Trust starts at home</text>
+    <text x="540" y="142" text-anchor="middle" font-size="17" font-weight="600" fill="#0A66C2">Architecture by Santhosh Damodaran · linkedin.com/in/santhoshdamodaran</text>
+  </g>
+
+  <g id="internet">
+    <rect x="80" y="170" width="400" height="120" rx="60" fill="#FFFFFF" stroke="#94A3B8" stroke-width="3"/>
+    <text x="280" y="222" text-anchor="middle" font-size="30" font-weight="700" fill="#0B2545">🌐 Internet</text>
+    <text x="280" y="260" text-anchor="middle" font-size="19" fill="#64748B">untrusted by default</text>
+  </g>
+
+  <g id="corp">
+    <rect x="600" y="170" width="400" height="120" rx="16" fill="#EEF2FF" stroke="#4F46E5" stroke-width="3"/>
+    <text x="800" y="220" text-anchor="middle" font-size="25" font-weight="700" fill="#312E81">🏢 Corporate network / Cloud</text>
+    <text x="800" y="260" text-anchor="middle" font-size="18" fill="#4338CA">Entra ID · MFA · Conditional Access</text>
+  </g>
+
+  <g id="e1"><line x1="280" y1="290" x2="360" y2="382" stroke="#64748B" stroke-width="4" marker-end="url(#arrg)"/></g>
+
+  <g id="router">
+    <rect x="200" y="390" width="640" height="160" rx="18" fill="#E6EEF9" stroke="#2563EB" stroke-width="3"/>
+    <text x="520" y="440" text-anchor="middle" font-size="27" font-weight="700" fill="#1E3A8A">🛡️ Router + firewall (hardened)</text>
+    <text x="520" y="482" text-anchor="middle" font-size="19" fill="#1E40AF">Admin password changed · Firmware updated</text>
+    <text x="520" y="516" text-anchor="middle" font-size="19" fill="#1E40AF">WPS off · UPnP off · No open ports · IPv6 inbound blocked</text>
+  </g>
+
+  <g id="e2"><line x1="360" y1="550" x2="270" y2="624" stroke="#64748B" stroke-width="4" marker-end="url(#arrg)"/></g>
+  <g id="e3"><line x1="680" y1="550" x2="790" y2="624" stroke="#64748B" stroke-width="4" marker-end="url(#arrg)"/></g>
+
+  <g id="vpn">
+    <line id="vpnline" x1="940" y1="626" x2="940" y2="298" stroke="#16A34A" stroke-width="8" stroke-dasharray="16 10" marker-start="url(#arr)" marker-end="url(#arr)"/>
+    <text transform="translate(978,462) rotate(-90)" text-anchor="middle" font-size="21" font-weight="700" fill="#15803D">Encrypted VPN tunnel</text>
+  </g>
+
+  <g id="home">
+    <rect x="40" y="630" width="460" height="470" rx="20" fill="#FFF4E5" stroke="#F59E0B" stroke-width="3"/>
+    <text x="270" y="678" text-anchor="middle" font-size="26" font-weight="800" fill="#B45309">HOME ZONE · untrusted</text>
+    <text x="270" y="710" text-anchor="middle" font-size="17" fill="#92400E">Wi-Fi 1 · WPA2/WPA3 · long passphrase</text>
+    <g font-size="18" fill="#334155" text-anchor="middle">
+      <rect x="60" y="735" width="200" height="105" rx="12" fill="#FFFFFF" stroke="#FCD34D"/>
+      <text x="160" y="785" font-size="38">📺</text><text x="160" y="822">Smart TV</text>
+      <rect x="280" y="735" width="200" height="105" rx="12" fill="#FFFFFF" stroke="#FCD34D"/>
+      <text x="380" y="785" font-size="38">📱</text><text x="380" y="822">Phones &amp; tablet</text>
+      <rect id="camtile" x="60" y="855" width="200" height="105" rx="12" fill="#FFFFFF" stroke="#FCD34D"/>
+      <text x="160" y="905" font-size="38">📷</text><text x="160" y="942">Security camera</text>
+      <rect x="280" y="855" width="200" height="105" rx="12" fill="#FFFFFF" stroke="#FCD34D"/>
+      <text x="380" y="905" font-size="38">🤖</text><text x="380" y="942">Robot vacuum</text>
+      <rect x="60" y="975" width="200" height="105" rx="12" fill="#FFFFFF" stroke="#FCD34D"/>
+      <text x="160" y="1025" font-size="38">🖨️</text><text x="160" y="1062">Printer</text>
+      <rect x="280" y="975" width="200" height="105" rx="12" fill="#FFFFFF" stroke="#FCD34D"/>
+      <text x="380" y="1025" font-size="38">💻</text><text x="380" y="1056" font-size="17">Personal laptop</text><text x="380" y="1074" font-size="14" fill="#64748B">"Public" profile</text>
+    </g>
+  </g>
+
+  <g id="work">
+    <rect x="580" y="630" width="460" height="470" rx="20" fill="#E8F7EE" stroke="#16A34A" stroke-width="3"/>
+    <text x="810" y="678" text-anchor="middle" font-size="26" font-weight="800" fill="#15803D">WORK ZONE · isolated</text>
+    <text x="810" y="710" text-anchor="middle" font-size="17" fill="#166534">Wi-Fi 2 · WPA2/WPA3 · client isolation ON</text>
+    <g font-size="18" fill="#334155" text-anchor="middle">
+      <rect x="600" y="735" width="200" height="105" rx="12" fill="#FFFFFF" stroke="#86EFAC"/>
+      <text x="700" y="785" font-size="38">💻</text><text x="700" y="822">Work laptop 1</text>
+      <rect x="820" y="735" width="200" height="105" rx="12" fill="#FFFFFF" stroke="#86EFAC"/>
+      <text x="920" y="785" font-size="38">💻</text><text x="920" y="822">Work laptop 2</text>
+    </g>
+    <rect x="600" y="855" width="420" height="225" rx="12" fill="#FFFFFF" stroke="#86EFAC"/>
+    <g font-size="19" fill="#14532D">
+      <text x="622" y="900">✔ Internet only, can't see home devices</text>
+      <text x="622" y="941">✔ Laptops can't see each other</text>
+      <text x="622" y="982">✔ Corporate VPN for all work traffic</text>
+      <text x="622" y="1023">✔ OS + endpoint protection updated</text>
+      <text x="622" y="1064">✔ MFA on every sign-in</text>
+    </g>
+  </g>
+
+  <g id="barrier"><line x1="540" y1="650" x2="540" y2="1080" stroke="#DC2626" stroke-width="4" stroke-dasharray="10 8"/></g>
+
+  <!--ATTACK-->
+
+  <g id="block" transform="translate(540 865) scale(1) translate(-540 -865)">
+    <circle cx="540" cy="865" r="32" fill="#DC2626"/>
+    <text x="540" y="880" text-anchor="middle" font-size="40" font-weight="800" fill="#FFFFFF">✕</text>
+  </g>
+
+  <g id="nolat">
+    <rect x="300" y="1114" width="480" height="46" rx="23" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
+    <text x="540" y="1145" text-anchor="middle" font-size="21" font-weight="700" fill="#B91C1C">No lateral movement between zones</text>
+  </g>
+
+  <g id="footer">
+    <rect x="40" y="1176" width="1000" height="108" rx="16" fill="#0B2545"/>
+    <text x="540" y="1221" text-anchor="middle" font-size="23" font-weight="700" fill="#FFFFFF">Network segmentation · Least privilege · Defense in depth</text>
+    <text x="540" y="1259" text-anchor="middle" font-size="19" fill="#CBD5E1">Updated firmware · VPN · MFA → if home is hacked, work stays safe</text>
+  </g>
+
+  <!-- Watermark -->
+  <g id="watermark">
+    <rect x="345" y="1302" width="30" height="30" rx="5" fill="#0A66C2"/>
+    <text x="360" y="1325" text-anchor="middle" font-size="20" font-weight="800" fill="#FFFFFF">in</text>
+    <text x="385" y="1325" font-size="19" fill="#0A66C2" font-weight="600">linkedin.com/in/santhoshdamodaran</text>
+  </g>
+
+  <!--OVERLAY-->
+
+  <!-- Single diagonal watermark across the middle (can't be cropped out without cutting the diagram) -->
+  <text transform="translate(540 700) rotate(-30)" text-anchor="middle" font-size="64" font-weight="800" fill="#0B2545" opacity="0.06">linkedin.com/in/santhoshdamodaran</text>
+</svg>

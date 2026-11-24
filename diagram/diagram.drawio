@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Home network security" id="home-net">
+    <mxGraphModel dx="1080" dy="1350" grid="1" gridSize="10" page="1" pageWidth="1080" pageHeight="1350" background="#F7F9FC" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="&lt;b style=&quot;font-size:40px;color:#0B2545&quot;&gt;YOUR HOME IS A PUBLIC NETWORK&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:20px;color:#475569&quot;&gt;Home network security for remote work · Zero Trust starts at home&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1000" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="internet" value="&lt;b style=&quot;font-size:26px&quot;&gt;🌐 Internet&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;color:#64748B&quot;&gt;untrusted by default&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#94A3B8;strokeWidth=3;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="80" y="170" width="400" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="corp" value="&lt;b style=&quot;font-size:24px&quot;&gt;🏢 Corporate network / Cloud&lt;/b&gt;&lt;br&gt;Entra ID · MFA · Conditional Access" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF2FF;strokeColor=#4F46E5;strokeWidth=3;fontColor=#312E81;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="600" y="180" width="400" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="router" value="&lt;b style=&quot;font-size:26px&quot;&gt;🛡️ Router + firewall (hardened)&lt;/b&gt;&lt;br&gt;Admin password changed · Firmware updated&lt;br&gt;WPS off · UPnP off · No open ports · IPv6 inbound blocked" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6EEF9;strokeColor=#2563EB;strokeWidth=3;fontColor=#1E3A8A;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="640" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="home" value="&lt;b style=&quot;font-size:24px;color:#B45309&quot;&gt;HOME ZONE · untrusted&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;color:#92400E&quot;&gt;Wi-Fi 1 · WPA2/WPA3 · long passphrase&lt;/span&gt;" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#FFF4E5;strokeColor=#F59E0B;strokeWidth=3;verticalAlign=top;spacingTop=20;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="460" height="470" as="geometry"/>
+        </mxCell>
+        <mxCell id="h1" value="📺&lt;br&gt;Smart TV" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FCD34D;fontSize=18;" vertex="1" parent="1"><mxGeometry x="60" y="745" width="200" height="105" as="geometry"/></mxCell>
+        <mxCell id="h2" value="📱&lt;br&gt;Phones &amp;amp; tablet" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FCD34D;fontSize=18;" vertex="1" parent="1"><mxGeometry x="280" y="745" width="200" height="105" as="geometry"/></mxCell>
+        <mxCell id="h3" value="📷&lt;br&gt;Security camera" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FCD34D;fontSize=18;" vertex="1" parent="1"><mxGeometry x="60" y="865" width="200" height="105" as="geometry"/></mxCell>
+        <mxCell id="h4" value="🤖&lt;br&gt;Robot vacuum" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FCD34D;fontSize=18;" vertex="1" parent="1"><mxGeometry x="280" y="865" width="200" height="105" as="geometry"/></mxCell>
+        <mxCell id="h5" value="🖨️&lt;br&gt;Printer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FCD34D;fontSize=18;" vertex="1" parent="1"><mxGeometry x="60" y="985" width="200" height="105" as="geometry"/></mxCell>
+        <mxCell id="h6" value="💻&lt;br&gt;Personal laptop&lt;br&gt;&lt;span style=&quot;font-size:13px;color:#64748B&quot;&gt;&quot;Public&quot; profile&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FCD34D;fontSize=18;" vertex="1" parent="1"><mxGeometry x="280" y="985" width="200" height="105" as="geometry"/></mxCell>
+        <mxCell id="work" value="&lt;b style=&quot;font-size:24px;color:#15803D&quot;&gt;WORK ZONE · isolated&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;color:#166534&quot;&gt;Wi-Fi 2 · WPA2/WPA3 · client isolation ON&lt;/span&gt;" style="rounded=1;arcSize=5;whiteSpace=wrap;html=1;fillColor=#E8F7EE;strokeColor=#16A34A;strokeWidth=3;verticalAlign=top;spacingTop=20;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="580" y="640" width="460" height="470" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1" value="💻&lt;br&gt;Work laptop 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#86EFAC;fontSize=18;" vertex="1" parent="1"><mxGeometry x="600" y="745" width="200" height="105" as="geometry"/></mxCell>
+        <mxCell id="w2" value="💻&lt;br&gt;Work laptop 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#86EFAC;fontSize=18;" vertex="1" parent="1"><mxGeometry x="820" y="745" width="200" height="105" as="geometry"/></mxCell>
+        <mxCell id="wctl" value="✔ Internet only, can't see home devices&lt;br&gt;✔ Laptops can't see each other&lt;br&gt;✔ Corporate VPN for all work traffic&lt;br&gt;✔ OS + endpoint protection updated&lt;br&gt;✔ MFA on every sign-in" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#86EFAC;fontColor=#14532D;fontSize=18;align=left;spacingLeft=20;" vertex="1" parent="1">
+          <mxGeometry x="600" y="865" width="420" height="225" as="geometry"/>
+        </mxCell>
+        <mxCell id="barrier" value="" style="endArrow=none;html=1;strokeColor=#DC2626;strokeWidth=4;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="540" y="660" as="sourcePoint"/><mxPoint x="540" y="1090" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="block" value="✕" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=none;fontColor=#FFFFFF;fontSize=34;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="508" y="843" width="64" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="nolat" value="No lateral movement between zones" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#DC2626;strokeWidth=2;fontColor=#B91C1C;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1126" width="480" height="46" as="geometry"/>
+        </mxCell>
+        <mxCell id="footer" value="&lt;b style=&quot;font-size:22px&quot;&gt;Network segmentation · Least privilege · Defense in depth&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;color:#CBD5E1&quot;&gt;Updated firmware · VPN · MFA → if home is hacked, work stays safe&lt;/span&gt;" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#0B2545;strokeColor=none;fontColor=#FFFFFF;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1195" width="1000" height="115" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" style="endArrow=block;html=1;strokeColor=#64748B;strokeWidth=4;" edge="1" parent="1" source="internet" target="router"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" style="endArrow=block;html=1;strokeColor=#64748B;strokeWidth=4;" edge="1" parent="1" source="router" target="home"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" style="endArrow=block;html=1;strokeColor=#64748B;strokeWidth=4;" edge="1" parent="1" source="router" target="work"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="vpn" value="🔒 Encrypted VPN tunnel" style="endArrow=block;startArrow=block;html=1;strokeColor=#16A34A;strokeWidth=6;dashed=1;fontColor=#15803D;fontSize=18;fontStyle=1;labelBackgroundColor=#F7F9FC;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="940" y="640" as="sourcePoint"/><mxPoint x="940" y="300" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="byline" value="Architecture by Santhosh Damodaran · linkedin.com/in/santhoshdamodaran" style="text;html=1;align=center;fontSize=16;fontStyle=1;fontColor=#0A66C2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1300" width="1000" height="36" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
